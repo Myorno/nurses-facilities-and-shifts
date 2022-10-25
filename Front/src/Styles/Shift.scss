@@ -1,0 +1,123 @@
+.App {
+
+    background-color: #374458;
+    text-align: center;
+    min-height: 100vh;
+
+    @media only screen and (min-width: 2000px) {
+        font-size: 1.5rem;
+    }
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+    .row {
+        margin: 0;
+    }
+
+    .shift-cont {
+
+        .comparebox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            padding: 1rem;
+
+            button {
+                width: 5rem;
+                padding: 1rem;
+                height: 7rem;
+                display: flex;
+                border-radius: 0 5px 5px 0;
+                justify-content: center;
+                align-items: center;
+                background: #353535;
+                border: none;
+            }
+
+            .card {
+                width: 70rem;
+                height: 7rem;
+                color: #fff;
+                background: #3a9879;
+                border-radius: 5px 0px 0px 5px;
+
+                .card-body {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .shiftbox-cont {
+            justify-content: space-evenly;
+
+            div.my-2.card.shift-sett {
+                background: #b37621;
+            }
+
+            .my-2.card {
+                display: flex;
+                width: 350px;
+                padding: 1rem;
+                border: none;
+                color: #222c3b;
+                font-weight: 500;
+                background: #eda034;
+                cursor: pointer;
+
+                .card-title {
+                    font-size: 1.2rem;
+                }
+
+                @media only screen and (min-width: 1420px) {
+                    width: 400px;
+                }
+
+                @media only screen and (min-width: 2000px) {
+                    width: 500px;
+                    padding: 2rem;
+                }
+
+                @media only screen and (max-width: 321px) {
+                    width: 300px;
+                }
+
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    .button-cont {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 2rem;
+        padding-right: 1rem;
+
+        button {
+            background: #222c3b;
+            border: none;
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+            width: 8rem;
+        }
+
+        button:hover {
+            background: #10151e;
+        }
+    }
+
+
+}
